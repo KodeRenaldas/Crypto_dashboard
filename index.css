@@ -39,22 +39,26 @@ main {
     margin: 0;
 }
 #crypto-top1,
-#crypto-top2 {
+#crypto-top2,
+#crypto-top3 {
     display: flex;
     align-items: center;
 }
-#crypto1
-#crypto2 {
+#crypto1,
+#crypto2,
+#crypto3 {
     font-size: 1.5rem;
 }
 #crypto-top1 > span,
-#crypto-top2 > span {
+#crypto-top2 > span,
+#crypto-top3 > span {
     font-size: 2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 #crypto1 > p,
-#crypto2 > p {
+#crypto2 > p,
+#crypto3 > p{
     margin: 0;
 }
 #weather {
